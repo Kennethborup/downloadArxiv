@@ -2,7 +2,7 @@
 Download Arxiv paper directly from the abstract page and infer the title of the paper. Add the following script to your `~/.bash_profile` or `~/.bashrc` (depending on your setting), where `###` is replaced by the folder, where the papers should be downloaded to:
 
 ```bash
-# Download paper with title into tbr folder in PhD
+# Download paper with title into folder
 function paperdownload {
     currentDIR=$(pwd)
     cd ###
